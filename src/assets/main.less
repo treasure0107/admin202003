@@ -1,0 +1,138 @@
+@import "variable";
+
+.el-menu {
+  border-right: none !important;
+}
+
+.common-box-shadow{
+  box-shadow: 0 0px 2px 0 rgba(0,0,0,.1);
+}
+
+.ql-snow {
+  .ql-picker-label {
+    &::before {
+      position: absolute;
+      top: 0px
+    }
+  }
+}
+
+.el-menu-item, .el-submenu__title {
+  height: 50px;
+  line-height: 50px;
+}
+.admin-tree{
+  .el-tree-node__content{
+    height: 37px!important;
+    button{
+      border:none;
+    }
+  }
+  padding-top: 10px;
+}
+.help-tree{
+  .el-tree-node__content{
+    height: 37px!important;
+    button{
+      border: none;
+    }
+  }
+}
+//+---------登陆----------
+.login-input{
+  margin-top: 10px;
+  .el-input__inner{
+    border-radius: 30px!important;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 40px!important;
+    border: 1px #eeeeee solid;
+  }
+  .el-icon-user-solid,.el-icon-lock,.el-icon-s-cooperation{
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 5px;
+  }
+}
+.login-container{
+  .el-form-item__error{
+    padding-left: 10px;
+  }
+}
+.login-but{
+  height: 50px;
+  border-radius: 50px!important;
+  background-image: linear-gradient(45deg, #67C23A 0%, #87d262 100%)!important;
+  box-shadow: 0 1px 2px #5bad33!important;
+  border:none!important;
+}
+.login-but-pass{
+  background-image: linear-gradient(45deg, #409EFF 0%, #78baff 100%)!important;
+  box-shadow: 0 1px 2px #3686d8!important;;
+}
+
+#nprogress .bar {
+  background: #409EFF !important;
+}
+
+.pages-style {
+  background: #ffffff;
+  text-align: right;
+  padding: 10px;
+}
+.special-window{
+  .el-dialog__body{
+    padding-bottom: 60px;
+  }
+}
+.goods-window{
+  .el-dialog__body{
+    padding-bottom: 60px;
+  }
+}
+.string-show-one {
+  white-space: nowrap;/*一行显示*/
+  overflow: hidden;/*超出部分隐藏*/
+  text-overflow: ellipsis;/*用...代替超出部分*/
+}
+.string-show-tow {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+
+/*------标签tag边框色-----*/
+.tag-top-list{
+  .el-tag--plain.el-tag--info{
+    //border-color: #e2e2e2!important;
+  }
+}
+
+/*------表格宽度设置-----*/
+.table-content {
+  width: calc(100% - 60px)!important;
+  margin: 5px 15px!important;
+  padding: 15px;
+  background: #fff;
+  border-radius: @contentBorderRadius;
+  box-shadow: @contentBoxShadow;
+}
+
+.content{
+  background: transparent!important;
+}
+.content-width{
+  width: calc(100% - 30px)!important;
+  padding: 0 15px;
+}
+
+#body-top-right-menu{
+  height: 50px!important;
+  padding-right: 0px!important;
+  .el-menu--horizontal>.el-menu-item,.el-menu--horizontal>.el-menu-item, .el-menu--horizontal>.el-submenu .el-submenu__title{
+    height: 50px!important;
+    line-height: 50px!important;
+  }
+}

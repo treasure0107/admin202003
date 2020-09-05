@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.idea/
+*.DS_Store
+dose/
+out/
+static/UE/
+custom_config.js
+/src/pages/member/adminInfo.vue
+package-copy.json
+Jenkinsfile

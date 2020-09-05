@@ -1,0 +1,125 @@
+.content {
+  min-width: 1000px;
+  width: 100%;
+  background: #eeeeee;
+  border-bottom: 1px #eeeeee solid;
+  border-radius: 5px;
+  /deep/ .el-tabs__content {
+    min-height: 600px;
+  }
+
+  .form-search {
+    background: #ffffff;
+    margin: 5px 15px;
+    padding: 10px;
+    .el-form-item {
+      margin-bottom: 10px;
+    }
+  }
+  .table-content {
+    margin: 0 15px;
+    .order_tabs {
+      padding: 0 10px;
+      .no_data {
+        padding: 10px 0;
+        text-align: center;
+      }
+      .order_table_top tr td{
+        text-align: center;
+      }
+      .order_table_bottom tr td {
+        text-align: left;
+      }
+      .order_table {
+        margin-bottom: 2px;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        width: 100%;
+        max-width: 100%;
+        font-size: 14px;
+        color: #606266;
+        border-collapse: separate;
+        border-top: 1px solid #EBEEF5;
+        border-left: 1px solid #EBEEF5;
+
+        .operation_button {
+          margin-bottom: 5px;
+        }
+
+        .order_info {
+          .goods_info span {
+            display: block;
+            margin-bottom: 2px;
+            padding-left: 5px;
+          }
+        }
+
+        .hide_border {
+          border-right: 0;
+        }
+
+        .order_sn {
+          span {
+            margin-right: 40px;
+          }
+        }
+
+        thead {
+          color: #909399;
+          font-weight: 500;
+        }
+
+        th {
+          white-space: nowrap;
+          display: table-cell;
+          vertical-align: inherit;
+          font-weight: bold;
+        }
+
+        td {
+          border-bottom: 1px solid #EBEEF5;
+          display: table-cell;
+        }
+
+        th, tr {
+          background-color: #FFF;
+        }
+
+        td, th {
+          border-right: 1px solid #EBEEF5;
+          border-bottom: 1px solid #EBEEF5;
+          padding: 8px;
+          min-width: 0;
+          box-sizing: border-box;
+          text-overflow: ellipsis;
+          vertical-align: middle;
+          position: relative;
+          -webkit-box-sizing: border-box;
+        }
+      }
+    }
+
+    .pages_footer {
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+  .left_float {
+    float: left;
+  }
+  .order_info {
+    span {
+      display: inline;
+    }
+  }
+
+  .white {
+    background: #ffffff;
+  }
+
+}

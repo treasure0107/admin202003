@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "rootDirs": ["src"],
+    "sourceMap": true,
+    "inlineSources": true,
+    "allowJs": true,
+		"removeComments": true,
+    "moduleResolution": "node",
+    "suppressImplicitAnyIndexErrors": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "typeRoots" : ["./@types","./node_modules/@types"],
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+  },
+  "files": [
+    "./src/vue-shims.d.ts"
+  ],
+  "include": [
+    "src/*",
+    "src/**/*"
+  ]
+}

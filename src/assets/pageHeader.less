@@ -1,0 +1,45 @@
+@import "variable";
+@bodyWidth: calc(~"100% - 48px");
+.pages-header {
+  width: calc(~"100% - 48px");
+  height: 70px;
+  background: #ffffff;
+  margin-left: 15px;
+  line-height: 70px;
+  padding-left: 18px;
+  font-size: 18px;
+  margin-top: 5px;
+  border-radius: @contentBorderRadius;
+  box-shadow: @contentBoxShadow;
+  .el-page-header{
+    height: 100%;
+    line-height: 70px;
+    .el-page-header__content{
+      font-size: 18px!important;
+    }
+  }
+  > button {
+    float: right;
+    margin-top: 15px;
+    margin-right: 40px;
+  }
+
+  > div {
+    &:first-child {
+      float: left;
+    }
+  }
+}
+
+.settled-in-search {
+  width: calc(~"100% - 60px");
+  padding: 15px;
+  margin: 15px 15px 15px 15px;
+  background: #ffffff;
+  box-shadow: @contentBoxShadow;
+  border-radius: @contentBorderRadius;
+
+  .demo-form-inline {
+    padding-top: 22px;
+  }
+}
